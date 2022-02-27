@@ -1,0 +1,18 @@
+
+.logOutButton{
+    background-color: rgb(218, 42, 29);
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    display: block;
+    /* margin-top: 12px; */
+    /* margin-left:200px; */
+}
+.logOutButton:hover{
+    background-color: rgb(199, 49, 49);
+    cursor:pointer;
+}

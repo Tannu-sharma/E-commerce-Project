@@ -1,0 +1,16 @@
+.homeBanner{
+    width: 60vw;
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+ /* .homeWelcomeMsg{
+    position: relative;
+    position: right;
+  
+}  */

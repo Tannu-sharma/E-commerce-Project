@@ -1,0 +1,111 @@
+.productsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:100%;
+    align-content: space-between;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px; */
+  
+}
+
+.product{
+    height: 563px;
+    width: 289px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 19px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 89px;
+    /* justify-content: space-between; */
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+  
+}
+.product:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.productsPhoto{
+    width: 205px;
+    height: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productTitle{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px 3px;
+    cursor: pointer;
+
+}
+.productTitle:hover{
+    color: rgb(4, 4, 189);
+}
+.productCategory{
+    color:grey;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}
+.productRating{
+    background-color: rgb(55 151 90);
+    color:white;
+    font-size: 17px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 12px;
+    border-radius: 12px;
+    margin:0 auto;
+}
+.productPrice{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+/* .quantityDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    margin: 2px;
+    background: antiquewhite;
+    margin-bottom: 12px;
+}
+.quantityLabel{
+    font-size: 21px;
+    color: #662d35;
+    padding: 8px;
+}
+.quantityInput{
+    width: 70px;
+    border: 1px solid rgb(90, 57, 57);
+    padding: 6px 9px;
+    margin: 8px;
+    outline:none;
+} */
+.addToCartButtonInProducts{
+    background-color: #fb641b;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 4px;
+    width: 100%;
+    height: 66px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.addToCartButtonInProducts:hover{
+    background-color: #c94c0d;
+    cursor: pointer;
+}
+

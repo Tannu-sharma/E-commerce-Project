@@ -1,0 +1,78 @@
+.logInContainer{
+    background-color: rgb(22, 138, 121);
+    color: rgb(253 253 253);
+    padding: 30px 50px 100px 50px;
+    margin: 0 auto;
+    margin-left: 445px;
+    margin-top: 94px;
+ 
+    border-radius: 10px;
+    width: 613px;
+    height: 500px;
+    box-shadow: 10px 10px 1000px 0px rgb(182 182 245);
+}
+
+.logInHeading{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 45px;
+}
+.logInInputBox{
+    width: 489px;
+    height: 46px;
+    border-radius: 7px;
+    border: 1px solid rgb(128, 125, 125);
+    padding:10px 15px;
+    /* margin-bottom: 20px; */
+}
+.logInLabel {
+    font-size: 20px;
+    float: left;
+    /* display: inline-block; */
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+.logInError{
+    color: rgb(179 26 26);
+    text-align: left;
+    font-size: 19px;
+}
+.createAnAccount{
+    color:white;
+}
+
+.createAnAccount>button{
+    color:rgb(193, 233, 243);
+    background-color: rgb(22, 138, 121);
+    border:0;
+    font-size: 17px;
+    margin-left: 11px;
+    font-weight: 600;
+    font-family: revert;
+}
+.createAnAccount>button:hover{
+    /* border-bottom: white; */
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.logInButton{
+    background-color: rgb(22, 138, 121);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    /* margin-top: 80px; */
+    cursor: pointer;
+   
+}
+
+

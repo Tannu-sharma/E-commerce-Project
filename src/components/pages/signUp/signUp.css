@@ -1,0 +1,81 @@
+.signUpImage{
+    width: 693px;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 262px;
+    margin-left: 390px;
+}
+.signUpForm{
+    background-color: #072F5F;
+    width: 696px;
+    height: fit-content;
+    /* padding:20px 100px 30px 100px; */
+    border-radius: 15px;
+    border:none;
+    box-shadow: 10px 10px 1000px 0px rgb(228, 234, 249);
+    /* float: right; */
+    margin: 0px 0px 0px 390px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 40px 45px 43px 44px;
+}
+
+.signUpHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.signUpLabel{
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-top: 13px;
+}
+
+.signUpInputBox{
+    width: 590px;
+    height: 40px;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius:7px;
+    padding: 5px 15px 0px 15px;
+    /* margin-bottom: 300px; */
+}
+.error{
+    color: red;
+    /* text-align: left; */
+}
+.alreadyHaveAccount{
+    color:white;
+}
+.alreadyHaveAccount>button{
+    color:rgb(162 215 231);
+    background-color:#072F5F ;
+    border:0;
+    font-size: 17px;
+    margin-left: 11px;
+}
+.alreadyHaveAccount>button:hover{
+    /* border-bottom: white; */
+    border-bottom: 2px solid rgb(170, 170, 170);
+    cursor: pointer;
+}
+.submitButton {
+    background-color: #149ddd;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.productDetailConatiner{
+    border-radius: 3%;
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    padding: 31px;
+    /* margin: 111px; */
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 127px;
+}
+.productDetailConatiner:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.productDetails{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:50%;
+    padding-left: 20px;
+}
+.Ratingsdiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.productDetailRating{
+    background-color: rgb(55 151 90);
+    color: white;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 12px;
+    border-radius: 12px;
+    margin: 14px;
+    margin-left: 90px;
+
+}
+.productDetailPrice{
+    width: fit-content;
+    height: fit-content;
+    color:white;
+    font-size: 25px;
+    padding: 9px 17px;
+    font-weight: bold;
+    background-color: #1f468d;
+    margin:14px;
+    border-radius: 12px;
+}
+
+.productDetailPhoto{
+    width:500px;
+    height:100%;
+    border-radius: 15px;
+    align-self: center;
+}
+.productDetailTitle{
+    font-weight: bold;
+    font-size: 26px;
+}
+.productDetailCategory{
+    color: rgb(175 74 26);
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 600;
+    background: #dbdbdb;
+    border: 1px solid #c1bebe;
+    margin-bottom: 15px;
+
+}
+.productDetailDescription{
+    font-size:17px;
+    margin:25px 0px;
+    text-align: justify;
+    color: rgb(111, 110, 110);
+    padding:0px 28px;
+}
+.addToCartButtonDetailInProducts{
+    background-color: #fb641b;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 4px;
+    width: 100%;
+    height: 66px;
+    cursor: pointer;
+}
+.addToCartButtonDetailInProducts:hover{
+    background-color: #a94412;
+    cursor: pointer;
+}

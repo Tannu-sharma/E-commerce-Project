@@ -1,0 +1,60 @@
+.contactUsForm{
+    background-color: #04628f;
+    width: 700px;
+    height: fit-content;
+    padding:20px 100px 30px 100px;
+    border-radius: 15px;
+    /* border:7px solid rgb(134, 196, 250); */
+    box-shadow: 10px 10px 1000px 0px rgb(171, 183, 220);
+    /* float: right;
+    margin: 60px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top:96px;
+    margin-left: 160px;
+
+}
+
+.contactUsHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.contactUsLabel{
+    font-size: 20px;
+    /* float: left; */
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+.contactUsInputBox{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ced4da;
+    /* float: left; */
+}
+.error{
+    color: red;
+    /* text-align: left; */
+}
+
+.submitButton {
+    background-color: #149ddd;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}

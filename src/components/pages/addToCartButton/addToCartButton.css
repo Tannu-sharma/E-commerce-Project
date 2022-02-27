@@ -1,0 +1,24 @@
+.cartImg>img{
+    width: 52px;
+    height: 46px;
+    /* float: right; */
+    border-radius: 50%;
+   
+}
+.cartImg{
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+
+}
+.cartButton{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+   
+}
+.totalNoOfProducts{
+    color: white;
+    font-size: 23px;
+    padding: 5px;
+}
