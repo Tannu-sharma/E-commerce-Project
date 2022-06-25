@@ -16,8 +16,8 @@ export const UPDATE_SEACHED_PRODUCTS= "UPDATE_SEACHED_PRODUCTS";
 const getProductsData = () => async (dispatch) => {                                                       //getState contain all the redux states we use this if we want another state of store in actions
   try {
     dispatch(showLoader());
-    const productData = await fetch('http://localhost:3001/products').then(res=>res.json());
-    // const productData = await fetch('https://fakestoreapi.com/products/').then(res=>res.json());
+    // const productData = await fetch('http://localhost:3001/products').then(res=>res.json());                                          //this api is created by me 
+    const productData = await fetch('https://fakestoreapi.com/products/').then(res=>res.json());                                         //this is extrnal api link
     dispatch({ type: GET_PRODUCTS_DATA, payload: {productData} });
     dispatch(hideLoader());
 
